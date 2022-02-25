@@ -1,0 +1,115 @@
+version: "3.0"
+
+nlu:
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?
+
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - good morning
+      - good evening
+      - hey there
+
+  - intent: goodbye
+    examples: |
+      - bye
+      - goodbye
+      - see you around
+      - see you later
+
+  - intent: query_knowledge_base
+    examples: |
+      - what [creams](object_type) can you recommend?
+      - list some [cleansers](object_type)
+      - can you name some [creams](object_type) please?
+      - can you show me some [cleanser](object_type) options
+      - list [face](apply for) [creams](object_type)
+      - do you have any [body](apply for) [creams](object_type)?
+      - do you know the [price](attribute) of [White Jasmine Illuminating Facial Protector](cream)?
+      - what [dosha type](attribute) is [White Rice Overnight Nourishing Perfector](cream)?
+      - do you know what [dosha type](attribute) the [Sleep Hydrating Butter](cream) has?
+      - Is [Virgin Coconut Rich Body Cream](cream)  [availabile](attribute)?
+      - what is the [availability](attribute) of [Neem & Tea Tree Mattifying All Day Protector](cream)?
+      - what is the [Dosha type](attribute) [White Jasmine Illuminating Facial Protector](cream)?
+      - Do you also have any [Kapha](dosha) related [cream](object_type)?
+      - What about any [Tridosha](dosha) [cream](object_type)?
+      - Do you also know some [Italian]{"entity": "cuisine"} [restaurants]{"entity": "object_type", "value": "restaurant"}?
+      - can you tell me the [price](attribute) of [that cream]{"entity": "mention"}?
+      - for what [dosha type](attribute) do [they]{"entity": "mention"} suitable?
+      - what [cleansers](object_type) can you recommend?
+      - please list some [hair](apply for) [cleansers](object_type) for me
+      - what [cleanser](object_type) do you know which suitable for [Vatha](dosha)?
+      - name some [cleansers](object_type) for [body](apply for)
+      - show me some [creams](object_type)
+      - what are [cleansers](object_type) for [face](apply for)
+      - does the [last]{"entity": "mention", "value": "LAST"} one is for [Pitha](dosha)?
+      - does the [second one]{"entity": "mention", "value": "2"} is for [face](apply for)?
+      - what is the [price](attribute) of the [second]{"entity": "mention", "value": "2"} cleanser?
+      - does the [first]{"entity": "mention", "value": "1"} one [available](attribute)?
+      - does the [third]{"entity": "mention", "value": "3"} one is [available](attribute)?
+      - what is the [availability](attribute) of [Energise Invigorating Body Cleanser](cleanser)?
+      - Does the [Neroli Jasmine Hair Cleanser](cleansers) have is [available](attribute)?
+      - what is the [price](attribute) of [Sandalwood Vetiver Hair Cleanser](cleanser)
+      - where can we [apply](attribute) [White Rose Facial Cleansing Cream](cleanser)
+      - [price](attribute) of [True Turmeric Vitamin C Glow Facial Cleansing Foam](cleanser)
+      - do you know the [price](attribute) of [that one]{"entity": "mention"}?
+      - what [dosha type](attribute) is [it]{"entity": "mention"}?
+      - do you know where can we [apply](attribute) the [last one]{"entity": "mention", "value": "LAST"}?
+      - how is the [availability](attribute) of [Neem & Tea Tree Mattifying All Day Protector](cream)
+      - give me some [body](apply for) [creams](object_type)
+      - list me [hair](apply for) [cleansers](object_type)
+      - can I get a [face](apply for) [cleanser](object_type)
+      - what is the [price](attribute) of [second one]{"entity": "mention", "value": "2"}
+      - what is the [dosha type](attribute) of [Last one]{"entity": "mention", "value": "LAST"}
+
+
+  - lookup: cleanser
+    examples: |
+      - True Turmeric Vitamin C Glow Facial Cleansing Foam
+      - White Rose Facial Cleansing Cream
+      - Sandalwood Vetiver Hair Cleanser
+      - Neroli Jasmine Hair Cleanser
+      - Energise Invigorating Body Cleanser
+
+  - lookup: cream
+    examples: |
+      - White Rice Overnight Nourishing Perfector
+      - Sleep Hydrating Butter
+      - Virgin Coconut Rich Body Cream
+      - Neem & Tea Tree Mattifying All Day Protector
+      - White Jasmine Illuminating Facial Protector
+
+  - lookup: attribute
+    examples: |
+      - apply for
+      - price
+      - dosha
+      - availability
+
+  - synonym: cleanser
+    examples: |
+      - cleansers
+
+
+  - synonym: cream
+    examples: |
+      - creams
+
+  - synonym: dosha
+    examples: |
+      - dosha type
+
+  - synonym: availability
+    examples: |
+      - available
+
+  - synonym: apply for
+    examples: |
+      - apply

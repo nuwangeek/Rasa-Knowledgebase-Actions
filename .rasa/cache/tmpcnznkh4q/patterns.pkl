@@ -1,0 +1,14 @@
+[
+  {
+    "name": "cleanser",
+    "pattern": "(\\bTrue\\ Turmeric\\ Vitamin\\ C\\ Glow\\ Facial\\ Cleansing\\ Foam\\b|\\bWhite\\ Rose\\ Facial\\ Cleansing\\ Cream\\b|\\bSandalwood\\ Vetiver\\ Hair\\ Cleanser\\b|\\bNeroli\\ Jasmine\\ Hair\\ Cleanser\\b|\\bEnergise\\ Invigorating\\ Body\\ Cleanser\\b)"
+  },
+  {
+    "name": "cream",
+    "pattern": "(\\bWhite\\ Rice\\ Overnight\\ Nourishing\\ Perfector\\b|\\bSleep\\ Hydrating\\ Butter\\b|\\bVirgin\\ Coconut\\ Rich\\ Body\\ Cream\\b|\\bNeem\\ \\&\\ Tea\\ Tree\\ Mattifying\\ All\\ Day\\ Protector\\b|\\bWhite\\ Jasmine\\ Illuminating\\ Facial\\ Protector\\b)"
+  },
+  {
+    "name": "attribute",
+    "pattern": "(\\bapply\\ for\\b|\\bprice\\b|\\bdosha\\b|\\bavailability\\b)"
+  }
+]

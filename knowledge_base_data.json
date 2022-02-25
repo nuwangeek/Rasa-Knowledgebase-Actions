@@ -1,0 +1,88 @@
+{
+    "cream": [
+        {
+            "id": 0,
+            "name": "White Jasmine Illuminating Facial Protector",
+            "apply for": "face",
+            "price": "4250",
+            "dosha": "Tridosha",
+            "availability": true
+        },
+      {
+            "id": 1,
+            "name": "Neem & Tea Tree Mattifying All Day Protector",
+            "apply for": "face",
+            "price": "3750",
+            "dosha": "Kapha",
+            "availability": false
+        },
+        {
+            "id": 2,
+            "name": "Virgin Coconut Rich Body Cream",
+            "apply for": "body",
+            "price": "4200",
+            "dosha": "Tridosha",
+            "availability": false
+        },
+        {
+            "id": 3,
+            "name": "Sleep Hydrating Butter",
+            "apply for": "body",
+            "price": "2600",
+            "dosha": "Tridosha",
+            "availability": true
+        },
+        {
+            "id": 4,
+            "name": "White Rice Overnight Nourishing Perfector",
+            "apply for": "face",
+            "price": "4250",
+            "dosha": "Pitha",
+            "availability": true
+        }
+
+    ],
+    "cleanser": [
+        {
+            "id": 0,
+            "name": "True Turmeric Vitamin C Glow Facial Cleansing Foam",
+            "apply for": "face",
+            "price": "3750",
+            "dosha": "Kapha",
+            "availability": false
+        },
+      {
+            "id": 1,
+            "name": "White Rose Facial Cleansing Cream",
+            "apply for": "face",
+            "price": "3650",
+            "dosha": "Pitha",
+            "availability": true
+        },
+        {
+            "id": 2,
+            "name": "Sandalwood Vetiver Hair Cleanser",
+            "apply for": "hair",
+            "price": "2450",
+            "dosha": "Kapha",
+            "availability": false
+        },
+        {
+            "id": 3,
+            "name": "Neroli Jasmine Hair Cleanser",
+            "apply for": "hair",
+            "price": "2650",
+            "dosha": "Vatha",
+            "availability": true
+        },
+        {
+            "id": 4,
+            "name": "Energise Invigorating Body Cleanser",
+            "apply for": "body",
+            "price": "2700",
+            "dosha": "Tridosha",
+            "availability": true
+        }
+
+    ]
+}
